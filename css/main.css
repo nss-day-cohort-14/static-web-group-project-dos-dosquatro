@@ -4,50 +4,53 @@ p {
   margin: 0;
 }
 
+/*Center container on page*/
+
 .container {
   width: 80%;
   margin: 0 auto;  
 }
 
-.imageContainer {
-  width: 30%;
-  padding: 20px;
-  display: inline-block;
-}
-
-section p {
-  width: 50%;
-  display: inline-block;
-}
-
-.imageContainer:before {
-  content: '';
-  vertical-align: middle;
-}
-
-section p:before {
-  content: '';
-  vertical-align: middle;
-}
-
-.imageContainer img {
-  width: 100%;
-}
+/* Set section as table for vertical align purposes */
 
 section {
   display: table;
 }
+
+/* Set styling for even child sections */
 
 section:nth-child(even) {
   height: 200px;
   background: #FEA301;
 }
 
+/* Set styling for odd child sections */
+
 section:nth-child(odd) {
   background: #00736A;
 }
 
-p:nth-child(1) {
+/* Image container styling */
+
+.imageContainer {
+  width: 30%;
+  height: 40%;
+  padding: 20px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.imageContainer img {
+  width: 100%;
+  text-align: center;
+}
+
+/* Text next to image styling */
+
+span {
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
   color: #FEA301;
   padding: 20px;
 }
