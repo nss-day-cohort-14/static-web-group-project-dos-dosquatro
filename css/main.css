@@ -1,3 +1,9 @@
+
+
+
+
+
+
 h3,
 p,
 h2 {
@@ -272,6 +278,123 @@ nav {
 
 }
 
+/*--------------------
+-------SCIENCE--------
+---------------------*/
+
+.scienceImg {			/*---Both images---*/
+	/*width: 300px;
+	border-radius: 50%;
+	margin: 70px;
+	padding: 0;
+	flex-grow: 1;*/
+}
+
+/*-----Technology of Mattress---*/
+
+/*.sleepTech {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.sleepTech h2 {
+	text-align: center;
+	font-size: 2.5em;
+	margin: 30px 0;
+
+}
+
+.sleepTech p {
+	width: 70%;
+	margin: 0 auto 10px;
+	line-height: 1.4;
+}
+*/
+
+/*----Customer Testimony---*/
+
+
+
+.sleepTestimony p {
+	/*text-align: center;
+	font-size: 2em;
+	width: 50%;
+	margin: 0 auto;*/
+}
+
+/*------Comfort-----*/
+
+.comfort {
+	/*display: flex;
+	flex-direction: row;*/
+}
+
+.comfort:first-child {
+	/*flex-grow: 1;*/
+}
+
+.comfort h2 {
+	/*text-align: center;
+	font-size: 2.5em;
+	margin: 30px 0;
+	margin-bottom: 30px;*/
+}
+
+.comfort p {
+	width: 70%;
+	margin: 0 auto 10px;
+	line-height: 1.4;
+}
+
+.comfort:last-child {     /*image container*/
+	flex-grow: 1;
+}
+
+----Dr. Testimony ---
+
+.doctor {
+	height: 200px;
+}
+
+.doctor h2 {
+	text-align: center;
+	font-size: 2.5em;
+	margin-bottom: 0;
+}
+
+
+.drAgree {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.drAgree section {
+	width: 45%;
+}
+
+.drAgree p {
+	text-align: center;
+	font-size: 1.8em;
+	margin-top: 45px;
+}
+
+.drAgree h3 {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.drAgree ul {
+	text-align: center;
+	list-style: none;
+	line-height: 1.4;
+}
+
+/*------------------
+----------Footer-----
+--------------------*/
+
 footer {
   width: 100%;
   background-color: #002824;
@@ -313,3 +436,4 @@ footer {
 .footer p {
   float: right;
 }
+
