@@ -530,6 +530,10 @@ footer {
 }
 
 .bottom {
+  z-index: 90;
+}
+
+.bottom {
   z-index: -3;
 }
 
