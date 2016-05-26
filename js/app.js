@@ -3,13 +3,13 @@ var mattresses = [
     name: "Heaven Sleep",
     description: "Lorem ipsum dolor sit amet, sapien neque nobis, enim nunc. Lectus mattis purus quisque sem, lorem molestie dis sem ac libero, diam vivamus id, eget ac aliquam. Sit accumsan, semper ridiculus, est dui enim lorem non pharetra eget.",
     price: "$899",
-    imageURL: "img/mattress5.png"
+    imageURL: "img/dirtyMattress.jpg" 
   },
   {
     name: "Mothers Hug",
     description: "Lorem ipsum dolor sit amet, sapien neque nobis, enim nunc. Lectus mattis purus quisque sem, lorem molestie dis sem ac libero, diam vivamus id, eget ac aliquam. Sit accumsan, semper ridiculus, est dui enim lorem non pharetra eget.",
     price: "$1099",
-    imageURL: "img/mattress1.jpg"
+    imageURL: "img/mattress1.jpg" 
   },
   {
     name: "STP",
@@ -45,7 +45,7 @@ var mattresses = [
     name: "Stop Making Sense",
     description: "Lorem ipsum dolor sit amet, sapien neque nobis, enim nunc. Lectus mattis purus quisque sem, lorem molestie dis sem ac libero, diam vivamus id, eget ac aliquam. Sit accumsan, semper ridiculus, est dui enim lorem non pharetra eget.",
     price: "$199",
-    imageURL: "img/frame1.jpg"
+    imageURL: "img/frame1.png"
   },
   {
     name: "Sapien",
@@ -59,14 +59,14 @@ var productContainer = document.getElementsByClassName("container");
 var productContainer = productContainer[0];
 
 for (var i = 0; i < mattresses.length; i++) {
-  var productCard =  `<div class="productContainer">
+  var productCard =  `<div class="productContainer layer">
                         <div class="productImageContainer">
                           <img src="${mattresses[i].imageURL}"
                         </div>
                         <div class="productInfoContainer">
                           <h1>${mattresses[i].name}</h1>
                           <p>${mattresses[i].description}</p>
-                          <p>${mattresses[i].price}</p>
+                          <p class="price">${mattresses[i].price}</p>
                         </div>
                       </div>`;
 
