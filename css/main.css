@@ -9,7 +9,9 @@ h2 {
   background-image: url('../img/storyBanner.jpg');
   width: 100%;
   height: 400px;
-  display: table;
+  /*display: table;*/
+  background-position: top;
+  background-size: 125%;
 }
 
 #storyBanner h1 {
@@ -24,7 +26,7 @@ h2 {
 /*Center container on page*/
 
 .container {
-  width: 80%;
+  /*width: 80%;*/
   margin: 0 auto;  
 }
 
@@ -33,25 +35,25 @@ h2 {
 
 section {
   display: table;
-  padding: 40px;
+  /*padding: 40px;*/
   box-sizing: border-box;
 }
 
 /* Set styling for even child sections */
 
-section:nth-child(even) {
+/*section:nth-child(even) {
   height: 200px;
   background: #FEA301;
-  box-shadow: 4px 4px 5px #888888;
-  z-index: 3;
-}
+  /*box-shadow: 4px 4px 5px #888888;*/
+  /*z-index: 3;*/
+/*}*/
 
-/* Set styling for odd child sections */
+ /*Set styling for odd child sections */
 
-section:nth-child(odd) {
+/*section:nth-child(odd) {
   background: #00736A;
-  box-shadow: 4px 4px 5px #888888;
-}
+  /*box-shadow: 4px 4px 5px #888888;
+}/*/
 
 /* Image container styling */
 
@@ -71,22 +73,22 @@ section:nth-child(odd) {
 
 /* Text next to image styling */
 
-span {
+/*span {
   width: 50%;
   display: table-cell;
   vertical-align: middle;
   color: #FEA301;
-}
+}*/
 
-h3:nth-child(1) {
+/*h3:nth-child(1) {
   color: #00736A;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-}
+}*/
 
 p {
-  color: #FEA301;
+  /*color: #FEA301;*/
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -173,6 +175,7 @@ nav {
 }
 
 .layer {
+  width: 100%;
   max-width: 1024px;
   margin: 0 auto;
   /*background-color: #00736A;*/
@@ -181,6 +184,8 @@ nav {
   position: relative;
   border-radius: 2px;
   overflow: auto;
+  position: relative;
+  /*box-sizing: border-box;*/
 }
 
 .layer img {
@@ -192,6 +197,10 @@ nav {
 
 .left {
     float: left;
+}
+
+.right {
+  float: right;
 }
 
 .layer4 img {
