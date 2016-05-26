@@ -492,9 +492,11 @@ footer {
 
 
 .productContainer {
-	border: 1px dashed #00736A;
+	/*border: 1px dashed #00736A;*/
+  background-color: #F9F8EA;
 	display: inline-block;
 	width: 30%;
+  margin: 1.5%;
 }
 
 .productImageContainer {
