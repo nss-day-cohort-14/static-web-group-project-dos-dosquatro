@@ -56,7 +56,7 @@ var mattresses = [
 ];
 
 var productContainer = document.getElementsByClassName("container");
-var productContainer = productContainer[0];
+var productContainer = productContainer[1];
 
 for (var i = 0; i < mattresses.length; i++) {
   var productCard =  `<div class="productContainer layer">
