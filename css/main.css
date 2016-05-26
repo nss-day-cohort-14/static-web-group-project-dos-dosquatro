@@ -1,0 +1,47 @@
+/*
+#00736A  
+#00BC9F 
+#F1EEC7 
+#FEA301 
+#F2561A 
+*/
+
+/*--------------------
+-------SCIENCE--------
+---------------------*/
+
+.sleepTech {
+	height: 350px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+}
+
+.scienceImg {
+	width: 300px;
+	border-radius: 50%;
+	margin: 50px;
+	flex-grow: 1;
+}
+
+.sleepTech h2 {
+	text-align: center;
+}
+
+.sleepTech p {
+	width: 70%;
+	margin: 0 auto;
+	flex-grow: 1;
+}
+
+.sleepTestimony {
+	height: 200px;
+	border: 1px solid black;
+}
+
+.sleepTestimony p {
+	width
+}
+
+
+
