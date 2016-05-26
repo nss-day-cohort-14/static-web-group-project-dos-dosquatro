@@ -1,4 +1,8 @@
-
+/*#00736A  
+#00BC9F 
+#F1EEC7 
+#FEA301 
+#F2561A */
 
 
 
@@ -437,6 +441,7 @@ footer {
   float: right;
 }
 
+
 #toTop {
   content: url(../img/upArrow.png);
   width: 30px;
@@ -446,6 +451,45 @@ footer {
   right: 20px;
   z-index: 9999;
 }
+
+
+/*------------------
+---Products/JS styles
+--------------------*/
+
+
+.productContainer {
+	border: 1px dashed #00736A;
+	display: inline-block;
+	width: 30%;
+}
+
+.productImageContainer {
+
+}
+
+.productImageContainer img {
+	width: 200px;
+	margin: 42px;
+
+}
+
+.productInfoContainer {
+
+}
+
+.productInfoContainer h1 {
+	text-align: center;
+}
+
+.productInfoContainer p {
+	padding: 10px;
+}
+
+.price {
+	text-align: center;
+}
+
 
 
 
