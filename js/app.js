@@ -70,6 +70,6 @@ for (var i = 0; i < mattresses.length; i++) {
                         </div>
                       </div>`;
 
-}
+  productContainer.innerHTML += productCard;
 
-productContainer.innerHTML += productCard;
+}
