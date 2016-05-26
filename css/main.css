@@ -1,0 +1,62 @@
+body,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;  
+}
+
+.imageContainer {
+  width: 30%;
+  padding: 20px;
+  display: inline-block;
+}
+
+section p {
+  width: 50%;
+  display: inline-block;
+}
+
+.imageContainer:before {
+  content: '';
+  vertical-align: middle;
+}
+
+section p:before {
+  content: '';
+  vertical-align: middle;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+section {
+  display: table;
+}
+
+section:nth-child(even) {
+  height: 200px;
+  background: #FEA301;
+}
+
+section:nth-child(odd) {
+  background: #00736A;
+}
+
+p:nth-child(1) {
+  color: #FEA301;
+  padding: 20px;
+}
+
+h3:nth-child(1) {
+  color: #00736A;
+  padding: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
