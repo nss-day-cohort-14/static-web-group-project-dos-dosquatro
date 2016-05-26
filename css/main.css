@@ -1,7 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
 body,
 h3,
-p {
+p,
+h2 {
   margin: 0;
+  padding: 0;
+}
+
+#storyBanner {
+  background-image: url('../img/storyBanner.jpg');
+  width: 100%;
+  height: 400px;
+  display: table;
+}
+
+#storyBanner h1 {
+  color: #F1EEC7;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 4em;
+  text-shadow: 2px 2px #323129;
 }
 
 /*Center container on page*/
@@ -15,6 +37,8 @@ p {
 
 section {
   display: table;
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 /* Set styling for even child sections */
@@ -22,19 +46,22 @@ section {
 section:nth-child(even) {
   height: 200px;
   background: #FEA301;
+  box-shadow: 4px 4px 5px #888888;
+  z-index: 3;
 }
 
 /* Set styling for odd child sections */
 
 section:nth-child(odd) {
   background: #00736A;
+  box-shadow: 4px 4px 5px #888888;
 }
 
 /* Image container styling */
 
 .imageContainer {
   width: 30%;
-  height: 40%;
+  height: 300px;
   padding: 20px;
   display: table-cell;
   vertical-align: middle;
@@ -42,6 +69,7 @@ section:nth-child(odd) {
 
 .imageContainer img {
   width: 100%;
+  height: 100%;
   text-align: center;
 }
 
@@ -52,14 +80,17 @@ span {
   display: table-cell;
   vertical-align: middle;
   color: #FEA301;
-  padding: 20px;
 }
 
 h3:nth-child(1) {
   color: #00736A;
-  padding: 20px;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
+p {
+  color: #FEA301;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
